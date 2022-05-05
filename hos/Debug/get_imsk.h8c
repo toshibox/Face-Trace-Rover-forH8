@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\BeautoRoverRTOS\hos\include","C:\WorkSpace\BeautoRoverRTOS\hos\include\h83"
+-lang=c
+-object="C:\WorkSpace\BeautoRoverRTOS\hos\Debug\get_imsk.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\BeautoRoverRTOS\hos\src\h83\get_imsk.c"
+-nologo

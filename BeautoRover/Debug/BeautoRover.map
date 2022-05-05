@@ -1,0 +1,47 @@
+Optimizing Linkage Editor (V.9.05.01.000)         05-Feb-2021 23:36:55
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\BeautoRover.hlk
+-entry=_startup
+-define=STACK=0FF80
+-noprelink
+-rom=D=X
+-nomessage
+-list="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\BeautoRover.map"
+-nooptimize
+-start=VECT,P,C,D/00,B,X/0F780
+-nologo
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\crt0.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\kernel_cfg.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\led.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\lsen.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\main.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\motor.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\ostimer.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\sci.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\spk.obj"
+-input="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\vector.obj"
+-library="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\BeautoRover.lib"
+-library="C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\Debug\hos.lib"
+-output="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\BeautoRover.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+VECT
+                                  00000000  00000041        42   2
+P
+                                  00000042  00001ffb      1fba   2
+C
+                                  00001ffc  00002099        9e   2
+D
+                                  0000209a  000020c7        2e   2
+B
+                                  0000f780  0000fa41       2c2   2
+X
+                                  0000fa42  0000fa6f        2e   2

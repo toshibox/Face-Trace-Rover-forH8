@@ -1,0 +1,71 @@
+#line 1 "system.cfg"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+INCLUDE("\"main.h\"");
+INCLUDE("\"ostimer.h\"");
+
+ 
+HOS_KERNEL_HEAP(0);			
+HOS_TIM_TIC(1, 1);			
+HOS_MAX_TPRI(8);			
+HOS_MIN_INTNO(0);			
+HOS_MAX_INTNO(32);			
+HOS_MAX_TSKID(8);			
+
+
+
+
+
+ATT_INI({TA_HLNG, 0, Main_init});
+ATT_INI({TA_HLNG, 0, Ostimer_init});
+
+
+
+
+ATT_ISR({TA_HLNG, 0, 29, Ostimer_interruptHandler});
+ATT_ISR({TA_HLNG, 0, 23, INT_SCI3_interruptHandler});
+ATT_ISR({TA_HLNG, 0, 32, INT_SCI3_2_interruptHandler});
+
+
+
+
+
+
+
+CRE_TSK(TSKID_RxDataCheck,{TA_HLNG|TA_ACT, 0, RxDataCheckTask, 2, 128, NULL});
+
+
+
+
+
+
+
+
+
+
+CRE_FLG(FLGID_RunModeCtl, {(TA_TPRI | TA_WSGL | TA_CLR),0});
+CRE_FLG(FLGID_LED, {(TA_TPRI | TA_WSGL | TA_CLR),0});
+CRE_FLG(FLGID_Speaker, {(TA_TPRI | TA_WSGL | TA_CLR),0});
+CRE_FLG(FLGID_RxDataCheck, {(TA_TPRI | TA_WSGL | TA_CLR),0});
+CRE_FLG(FLGID_Motor, {(TA_TPRI | TA_WSGL | TA_CLR),0});
+
+
+
+
+
+CRE_DTQ(DTQID_RADICON, {TA_TFIFO, 4, NULL});
+CRE_DTQ(DTQID_AT, {TA_TFIFO, 1, NULL});
+
+
+
+
+
+ 
+ 
+ 

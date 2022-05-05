@@ -1,0 +1,8 @@
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\crt0.src"
+-cpu=300HN
+-debug
+-object="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\crt0.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

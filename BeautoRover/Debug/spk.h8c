@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include","C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\h83","C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover"
+-lang=c
+-object="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\spk.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\spk.c"
+-nologo

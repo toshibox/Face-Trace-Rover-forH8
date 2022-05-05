@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\BeautoRoverRTOS\hos\include","C:\WorkSpace\BeautoRoverRTOS\hos\include\h83","C:\WorkSpace\BeautoRoverRTOS\BeautoRover"
+-lang=c
+-object="C:\WorkSpace\BeautoRoverRTOS\BeautoRover\Debug\intprg.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\BeautoRoverRTOS\BeautoRover\intprg.c"
+-nologo

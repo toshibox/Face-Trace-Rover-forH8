@@ -1,0 +1,4 @@
+-cpu=300HN
+-output="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\BeautoRover.lib"
+-head=runtime,new
+-lang=c

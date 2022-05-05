@@ -1,0 +1,8 @@
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\vector.src"
+-cpu=300HN
+-debug
+-object="C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\Debug\vector.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

@@ -1,0 +1,8 @@
+"C:\WorkSpace\BeautoRoverRTOS\hos\src\h83\htc\pacintn.src"
+-cpu=300HN
+-debug
+-object="C:\WorkSpace\BeautoRoverRTOS\hos\Debug\pacintn.obj"
+-nolist
+-nologo
+-chgincpath
+-errorpath

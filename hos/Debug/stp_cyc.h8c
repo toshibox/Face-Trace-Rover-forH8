@@ -1,0 +1,10 @@
+-cpu=300HN
+-include="C:\WorkSpace\BeautoRoverRTOS\hos\include","C:\WorkSpace\BeautoRoverRTOS\hos\include\h83"
+-lang=c
+-object="C:\WorkSpace\BeautoRoverRTOS\hos\Debug\stp_cyc.obj"
+-outcode=sjis
+-debug
+-nolist
+-chgincpath
+"C:\WorkSpace\BeautoRoverRTOS\hos\src\kernel\cyc\stp_cyc.c"
+-nologo

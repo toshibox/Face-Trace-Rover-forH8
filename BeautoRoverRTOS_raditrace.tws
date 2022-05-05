@@ -1,0 +1,43 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"BeautoRover" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\crt0.src" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\iodefine.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\kernel_id.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\led.c" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\main.c" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\main.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\motor.c" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\motor.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\sci.c" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\sci.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\itron.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\kernel.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_hos.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_int.h" 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_tsk.h" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\crt0.src" 0 0 900 522 0 2 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\iodefine.h" 156 156 1300 485 0 6 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\kernel_id.h" 26 26 997 390 0 9 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\led.c" 78 78 1300 438 0 3 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\main.c" -8 -31 1035 566 1 0 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\main.h" 0 0 1195 564 0 5 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\motor.c" 0 0 1195 611 0 1 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\motor.h" 26 26 1006 327 0 8 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\sci.c" 0 0 1178 522 0 4 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\BeautoRover\sci.h" 0 0 1006 327 0 7 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\itron.h" 156 156 997 390 0 14 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\kernel.h" 52 52 997 390 0 10 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_hos.h" 78 78 997 390 0 11 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_int.h" 104 104 997 390 0 12 
+"C:\WorkSpace\BeautoRoverRTOS_raditrace\hos\include\knl_tsk.h" 130 130 997 390 0 13 
+[LOADED_PROJECTS]
+"BeautoRover" 
+[END]
